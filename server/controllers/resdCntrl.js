@@ -9,7 +9,7 @@ export const createResidency = asyncHandler(async (req, res) =>{
     try {
         const residency = await prisma.residency.create({
             data: {
-                tittle, 
+                title, 
                 description, 
                 price, 
                 address, 
